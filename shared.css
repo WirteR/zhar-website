@@ -24,6 +24,7 @@ body {
     height: 180px;
     display: inline-block;
     margin-right: 30px;
+    vertical-align: middle;
 }
 
 .main-header__brand img {
@@ -37,7 +38,6 @@ body {
     padding: 5px 3px;
     display: inline-block;
     font-family: Roboto;
-    text-align: right;
 }
 
 .title-header__title {
