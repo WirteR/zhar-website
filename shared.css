@@ -5,12 +5,13 @@
 body {
     margin: 0;
     background: #d2d79a;
-    text-align: center;
 }
 
 .main-header {
+    display: flex;
+    justify-content: space-between;
     padding: 10px 15px;
-    display: inline-block;
+    margin: auto;
     width: 900px;
 }
 
@@ -29,19 +30,24 @@ body {
     height: 100%;
 }
 
-.title-header {
-    
-}
-
-.title-header__title {
+.title-header div{
+    margin-left: 10px;
     vertical-align: middle;
     border: 1px solid black;
     padding: 5px 3px;
     display: inline-block;
     font-family: Roboto;
+    text-align: right;
+}
+
+.title-header__title {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    color: #821C1C;
-    
+    color: #821C1C;    
+}
+
+.title-header__contacts {
+    font-size: 22px;
+    line-height: 26px;
 }
