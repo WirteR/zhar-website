@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 15px;
+    padding: 10px;
     margin: auto;
     width: 850px;
 }
@@ -116,3 +116,38 @@ body {
     display: inline-block;
 }
 
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    margin: auto;
+    width: 850px;
+}
+
+footer section {
+    flex: auto;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0, 5px;
+}
+
+.footer-info {
+    border: 1px black solid;
+    padding: 3px 0;
+    text-align: left;
+    width: 100%;
+}
+
+.footer-info__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border-left: 1px black solid;
+}
+
+.footer-info__list ul {
+    list-style-type: ' - ';
+    padding: 0 20px;
+}
