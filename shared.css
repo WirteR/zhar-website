@@ -151,3 +151,18 @@ footer section {
     list-style-type: ' - ';
     padding: 0 20px;
 }
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    border-left: 1px black solid;
+}
+
+.socials img {
+    height: 50px;
+    margin-top: 15px;
+}
